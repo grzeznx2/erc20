@@ -13,9 +13,14 @@ allowance(owner, spender)
 approve(spender, amount)
 
 transferFrom(sender, recipient, amount)
+
+EVENTS:
+Transfer(from, to, value)
+
+Approval(owner, spender, value)
  */
 
 
 interface IERC20 {
-    
+
 }
